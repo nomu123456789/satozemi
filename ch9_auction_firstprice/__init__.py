@@ -6,7 +6,7 @@ c = Currency
 
 class C(BaseConstants):
     NAME_IN_URL = "ch9_auction_firstprice"
-    PLAYERS_PER_GROUP = 3
+    PLAYERS_PER_GROUP = 10
     NUM_ROUNDS = 3
     INSTRUCTIONS_TEMPLATE = "ch9_auction_firstprice/instructions.html"
     EVALUATE_MIN = 0
